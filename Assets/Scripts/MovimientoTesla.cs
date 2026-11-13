@@ -4,8 +4,8 @@ using UnityEngine.InputSystem;
 
 public class MovimientoTesla : MonoBehaviour
 {
-    public float velocidad = 50f; // Velocidad de movimiento del objeto
-    public float rotacion = 7f; // Velocidad de rotación del objeto
+    public float velocidadY = 2f; // Velocidad de movimiento del objeto
+    public float velocidadX = 7f; // Velocidad de rotación del objeto
     public Vector2 mov;
     Rigidbody2D rb;
 
@@ -22,7 +22,7 @@ public class MovimientoTesla : MonoBehaviour
     }
     void FixedUpdate()
     {
-        rb.MovePosition(rb.position + mov * rotacion * Time.fixedDeltaTime);
+        rb.MovePosition(rb.position + mov * velocidadX * Time.fixedDeltaTime);
     }
     public void OnMove(InputValue value)
     {
