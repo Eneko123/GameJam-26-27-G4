@@ -5,6 +5,7 @@ public class cochesGenerator : MonoBehaviour
     public GameObject coche;
     public gameManager gameManager;
     private Vector3[] carriles = new Vector3[4];
+    public float tiempoGeneracion = 3f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -12,6 +13,8 @@ public class cochesGenerator : MonoBehaviour
         carriles[1] = new Vector3(-2, 15, 0);
         carriles[2] = new Vector3(2, 15, 0);
         carriles[3] = new Vector3(6, 15, 0);
+        
+        InvokeRepeating(nameof(GenerarCoche), 0f, tiempoGeneracion);
     }
 
     // Update is called once per frame
@@ -19,13 +22,13 @@ public class cochesGenerator : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            GenerarCoche(gameManager.velocidad);
+            GenerarCoche();
         }
     }
-    void GenerarCoche(float velocidadCoche)
+    void GenerarCoche()
     { 
         int carril = Random.Range(0, 4);
         GameObject cocheNuevo = Instantiate(coche, carriles[carril], Quaternion.identity);
-        cocheNuevo.GetComponent<cocheEnemy>().velocidad = velocidadCoche;
+        cocheNuevo.GetComponent<cocheEnemy>().velocidad = gameManager.velocidad;
     }
 }

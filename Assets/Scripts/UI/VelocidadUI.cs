@@ -14,6 +14,8 @@ public class VelocidadUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        velocidadText.text = gameManager.velocidad + " km/h";
+        //velocidadText.text = gameManager.velocidad + " km/h";
+        velocidadText.text = gameManager.velocidad+"";
+
     }
 }

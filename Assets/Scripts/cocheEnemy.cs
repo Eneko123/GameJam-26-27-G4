@@ -13,7 +13,7 @@ public class cocheEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb.MovePosition(rb.position + new Vector2(0, -velocidad * Time.fixedDeltaTime));
+        rb.MovePosition(rb.position + new Vector2(0, -velocidad/6 * Time.fixedDeltaTime));
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

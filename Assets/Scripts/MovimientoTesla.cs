@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 
 public class MovimientoTesla : MonoBehaviour
 {
-    public float rotacion = 7f; // Velocidad de rotación del objeto
+    public float rotacion = 10f; // Velocidad de rotación del objeto
     public Vector2 mov;
     Rigidbody2D rb;
 
