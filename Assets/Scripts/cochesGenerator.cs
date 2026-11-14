@@ -3,6 +3,7 @@ using UnityEngine;
 public class cochesGenerator : MonoBehaviour
 {
     public GameObject coche;
+    public GameObject[] coches = new GameObject[3];
     public gameManager gameManager;
     private Vector3[] carriles = new Vector3[4];
     public float tiempoGeneracion = 3f;
@@ -28,7 +29,8 @@ public class cochesGenerator : MonoBehaviour
     void GenerarCoche()
     { 
         int carril = Random.Range(0, 4);
-        GameObject cocheNuevo = Instantiate(coche, carriles[carril], Quaternion.identity);
+        int cocheIndex = Random.Range(0, coches.Length);
+        GameObject cocheNuevo = Instantiate(coches[cocheIndex], carriles[carril], Quaternion.identity);
         cocheNuevo.GetComponent<cocheEnemy>().velocidad = gameManager.velocidad;
     }
 }

@@ -950,6 +950,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::cochesGenerator
   coche: {fileID: 2477353297102589728, guid: da0ff1e26b9ad464ab8f1b97a2b5d61a, type: 3}
+  coches:
+  - {fileID: 2477353297102589728, guid: 98ab8a5956d3e26448eee37c96dae8a9, type: 3}
+  - {fileID: 2477353297102589728, guid: 218c16c5303dbfa4e9022494b7384e56, type: 3}
+  - {fileID: 2477353297102589728, guid: f48fbb9c0324cf342bf8ddd07e679adc, type: 3}
   gameManager: {fileID: 101631922}
   tiempoGeneracion: 3
 --- !u!1 &2023196883
