@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9ff2bf35cf9c5ec43b4b3918847c61e0
+guid: 2caec6bf29d51cd418e58119292a1f8e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7111498776707523941
-    second: supuesto tesla_0
+      213: -1305978865121095953
+    second: Llave de coche pixelada negra (1) (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: supuesto tesla_0
+      name: Llave de coche pixelada negra (1) (1)_0
       rect:
         serializedVersion: 2
-        x: 289
-        y: 134
-        width: 600
-        height: 988
+        x: 522
+        y: 580
+        width: 213
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9a19b97a81ee4d90800000000000000
-      internalID: -7111498776707523941
+      spriteID: fee0a4c342b30ede0800000000000000
+      internalID: -1305978865121095953
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      supuesto tesla_0: -7111498776707523941
+      Llave de coche pixelada negra (1) (1)_0: -1305978865121095953
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
