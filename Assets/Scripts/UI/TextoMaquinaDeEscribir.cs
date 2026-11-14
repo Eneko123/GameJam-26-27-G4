@@ -7,18 +7,14 @@ public class EfectoMaquinaDeEscribir : MonoBehaviour
     public TextMeshProUGUI textoUI;
     public string[] mensajes = new string[4];
 
-
-
-
-
     public float velocidad = 0.05f;
 
     void Start()
     {
-    mensajes[0] = "Parecia un dia mas utilizando tu Pesla...";
-    mensajes[1] = "pero te das cuenta que...";
-    mensajes[2] = "esto no deberia funcionar asi...";
-    mensajes[3] = "¡Tu Pesla de ultima generacion ha sido hackeado!";
+        mensajes[0] = "Parecia un dia mas utilizando tu Pesla...";
+        mensajes[1] = "pero te das cuenta que...";
+        mensajes[2] = "esto no deberia funcionar asi";
+        mensajes[3] = "¡TU PESLA DE ULTIMA GENERACION HA SIDO HACKEADO!";
         StartCoroutine(MostrarTexto());
     }
 

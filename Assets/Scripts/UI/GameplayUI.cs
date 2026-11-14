@@ -68,6 +68,7 @@ public class GameplayUI : MonoBehaviour
 
     private void GameOver()
     {
+        /*
         Time.timeScale = 0;
         informationText.text = "Ostia terrible...";
         manager.gamePaused = true;
@@ -76,6 +77,7 @@ public class GameplayUI : MonoBehaviour
         playButton.GetComponentInChildren<TextMeshProUGUI>().text = "Volver a jugar";
         playButton.onClick.RemoveAllListeners();
         playButton.onClick.AddListener(RestartGame);
+        */
     }
 
     private void RestartGame()
