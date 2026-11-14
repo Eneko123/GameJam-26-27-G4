@@ -1,0 +1,1079 @@
+fileFormatVersion: 2
+guid: c6838dc7bb39e174d8f353c4299a9c69
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8681849688078196848
+    second: Grietas de cristal pixeladas_0
+  - first:
+      213: -6029567004000228966
+    second: Grietas de cristal pixeladas_1
+  - first:
+      213: -6915304962741816294
+    second: Grietas de cristal pixeladas_2
+  - first:
+      213: 831047001779607638
+    second: Grietas de cristal pixeladas_3
+  - first:
+      213: -29394864068569600
+    second: Grietas de cristal pixeladas_4
+  - first:
+      213: -2777539114599137271
+    second: Grietas de cristal pixeladas_5
+  - first:
+      213: -6396075881748146152
+    second: Grietas de cristal pixeladas_6
+  - first:
+      213: 286280526666082229
+    second: Grietas de cristal pixeladas_7
+  - first:
+      213: -8821233647092413522
+    second: Grietas de cristal pixeladas_8
+  - first:
+      213: 1585643573393079938
+    second: Grietas de cristal pixeladas_9
+  - first:
+      213: 4707512035326832784
+    second: Grietas de cristal pixeladas_10
+  - first:
+      213: -5159396887273484143
+    second: Grietas de cristal pixeladas_11
+  - first:
+      213: 5482711753418850674
+    second: Grietas de cristal pixeladas_12
+  - first:
+      213: -3672892871300418382
+    second: Grietas de cristal pixeladas_13
+  - first:
+      213: -7114022181755887811
+    second: Grietas de cristal pixeladas_14
+  - first:
+      213: 5279592438382637495
+    second: Grietas de cristal pixeladas_15
+  - first:
+      213: 2113664236672507583
+    second: Grietas de cristal pixeladas_16
+  - first:
+      213: 1325010149063291401
+    second: Grietas de cristal pixeladas_17
+  - first:
+      213: 8178657762830633334
+    second: Grietas de cristal pixeladas_18
+  - first:
+      213: -2383987403052316719
+    second: Grietas de cristal pixeladas_19
+  - first:
+      213: -3641096207954336974
+    second: Grietas de cristal pixeladas_20
+  - first:
+      213: 4820756750475626819
+    second: Grietas de cristal pixeladas_21
+  - first:
+      213: -1983799973602413681
+    second: Grietas de cristal pixeladas_22
+  - first:
+      213: 1522831121677484732
+    second: Grietas de cristal pixeladas_23
+  - first:
+      213: 3479699856665324312
+    second: Grietas de cristal pixeladas_24
+  - first:
+      213: -7349208146710736796
+    second: Grietas de cristal pixeladas_25
+  - first:
+      213: -5979717762756723945
+    second: Grietas de cristal pixeladas_26
+  - first:
+      213: -55367436291079861
+    second: Grietas de cristal pixeladas_27
+  - first:
+      213: -5848287066757429300
+    second: Grietas de cristal pixeladas_28
+  - first:
+      213: 983888153627500393
+    second: Grietas de cristal pixeladas_29
+  - first:
+      213: -6589879325805332265
+    second: Grietas de cristal pixeladas_30
+  - first:
+      213: 2998926052258853047
+    second: Grietas de cristal pixeladas_31
+  - first:
+      213: 1603248571834404768
+    second: Grietas de cristal pixeladas_32
+  - first:
+      213: -6964388631700583012
+    second: Grietas de cristal pixeladas_33
+  - first:
+      213: -800714785463042573
+    second: Grietas de cristal pixeladas_34
+  - first:
+      213: -3393308952393149926
+    second: Grietas de cristal pixeladas_35
+  - first:
+      213: -4632742389636612999
+    second: Grietas de cristal pixeladas_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 1652
+        height: 941
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070ac3bfa402c7870800000000000000
+      internalID: 8681849688078196848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 815
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99662181cca25ca0800000000000000
+      internalID: -6029567004000228966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 843
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14374676c6e700a0800000000000000
+      internalID: -6915304962741816294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_3
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 837
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6581ab458d8788b00800000000000000
+      internalID: 831047001779607638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 810
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006d8f0e681979ff0800000000000000
+      internalID: -29394864068569600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 793
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900c09c24e23479d0800000000000000
+      internalID: -2777539114599137271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_6
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 824
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81855f79fd29c37a0800000000000000
+      internalID: -6396075881748146152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_7
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 802
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b72b0a4f9219f300800000000000000
+      internalID: 286280526666082229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 808
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab45502cbea49580800000000000000
+      internalID: -8821233647092413522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 753
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28eb97ccd66510610800000000000000
+      internalID: 1585643573393079938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 780
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09038813141745140800000000000000
+      internalID: 4707512035326832784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_11
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 778
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190deceddd32668b0800000000000000
+      internalID: -5159396887273484143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_12
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 761
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271c3648a41861c40800000000000000
+      internalID: 5482711753418850674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_13
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 768
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4f214b463470dc0800000000000000
+      internalID: -3672892871300418382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_14
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 762
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3fd034748ae54d90800000000000000
+      internalID: -7114022181755887811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_15
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 729
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1b2a8a951e44940800000000000000
+      internalID: 5279592438382637495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_16
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 729
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbedf41bc6e355d10800000000000000
+      internalID: 2113664236672507583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_17
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 666
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90274bad5b1636210800000000000000
+      internalID: 1325010149063291401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_18
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 311
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679c20527ed608170800000000000000
+      internalID: 8178657762830633334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_19
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 277
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d78f0c76106aeed0800000000000000
+      internalID: -2383987403052316719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_20
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 250
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2332cdb4a4a387dc0800000000000000
+      internalID: -3641096207954336974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 184
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3498aac19b4c6e240800000000000000
+      internalID: 4820756750475626819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_22
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 207
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83bff34f602874e0800000000000000
+      internalID: -1983799973602413681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_23
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 155
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb20f7c36de222510800000000000000
+      internalID: 1522831121677484732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_24
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 133
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ba38955906a4030800000000000000
+      internalID: 3479699856665324312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_25
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 127
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46056ead02e520a90800000000000000
+      internalID: -7349208146710736796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_26
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 82
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71bbacd6066c30da0800000000000000
+      internalID: -5979717762756723945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 100
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b410fbb2c9b4b3ff0800000000000000
+      internalID: -55367436291079861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_28
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 74
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc78969f5e5b6dea0800000000000000
+      internalID: -5848287066757429300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_29
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 94
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f9ea7101977ad00800000000000000
+      internalID: 983888153627500393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 56
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8bea8faab0c84a0800000000000000
+      internalID: -6589879325805332265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_31
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 48
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0bd840b535e9920800000000000000
+      internalID: 2998926052258853047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_32
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 31
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af87dae412ef3610800000000000000
+      internalID: 1603248571834404768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_33
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 30
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9dc7b93075895f90800000000000000
+      internalID: -6964388631700583012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_34
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 37
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd721e152a43e4f0800000000000000
+      internalID: -800714785463042573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_35
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 31
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12147f7c7b88e0d0800000000000000
+      internalID: -3393308952393149926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grietas de cristal pixeladas_36
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 0
+        width: 70
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cb0d9875135bfb0800000000000000
+      internalID: -4632742389636612999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Grietas de cristal pixeladas_0: 8681849688078196848
+      Grietas de cristal pixeladas_1: -6029567004000228966
+      Grietas de cristal pixeladas_10: 4707512035326832784
+      Grietas de cristal pixeladas_11: -5159396887273484143
+      Grietas de cristal pixeladas_12: 5482711753418850674
+      Grietas de cristal pixeladas_13: -3672892871300418382
+      Grietas de cristal pixeladas_14: -7114022181755887811
+      Grietas de cristal pixeladas_15: 5279592438382637495
+      Grietas de cristal pixeladas_16: 2113664236672507583
+      Grietas de cristal pixeladas_17: 1325010149063291401
+      Grietas de cristal pixeladas_18: 8178657762830633334
+      Grietas de cristal pixeladas_19: -2383987403052316719
+      Grietas de cristal pixeladas_2: -6915304962741816294
+      Grietas de cristal pixeladas_20: -3641096207954336974
+      Grietas de cristal pixeladas_21: 4820756750475626819
+      Grietas de cristal pixeladas_22: -1983799973602413681
+      Grietas de cristal pixeladas_23: 1522831121677484732
+      Grietas de cristal pixeladas_24: 3479699856665324312
+      Grietas de cristal pixeladas_25: -7349208146710736796
+      Grietas de cristal pixeladas_26: -5979717762756723945
+      Grietas de cristal pixeladas_27: -55367436291079861
+      Grietas de cristal pixeladas_28: -5848287066757429300
+      Grietas de cristal pixeladas_29: 983888153627500393
+      Grietas de cristal pixeladas_3: 831047001779607638
+      Grietas de cristal pixeladas_30: -6589879325805332265
+      Grietas de cristal pixeladas_31: 2998926052258853047
+      Grietas de cristal pixeladas_32: 1603248571834404768
+      Grietas de cristal pixeladas_33: -6964388631700583012
+      Grietas de cristal pixeladas_34: -800714785463042573
+      Grietas de cristal pixeladas_35: -3393308952393149926
+      Grietas de cristal pixeladas_36: -4632742389636612999
+      Grietas de cristal pixeladas_4: -29394864068569600
+      Grietas de cristal pixeladas_5: -2777539114599137271
+      Grietas de cristal pixeladas_6: -6396075881748146152
+      Grietas de cristal pixeladas_7: 286280526666082229
+      Grietas de cristal pixeladas_8: -8821233647092413522
+      Grietas de cristal pixeladas_9: 1585643573393079938
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
