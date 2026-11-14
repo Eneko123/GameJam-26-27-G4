@@ -1,9 +1,10 @@
+using TMPro;
 using UnityEngine;
 
 public class VelocidadUI : MonoBehaviour
 {
-    TextMeshProUGUI velocidadText;
-    public Player player;
+    public TextMeshProUGUI velocidadText;
+    public gameManager gameManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,6 +14,6 @@ public class VelocidadUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        velocidadText.text = gameManager.velocidad + " km/h";
     }
 }
