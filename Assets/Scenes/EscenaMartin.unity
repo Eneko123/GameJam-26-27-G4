@@ -302,6 +302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::gameManager
   velocidad: 20
   gamePaused: 1
+  crshed: 0
 --- !u!1 &173385271
 GameObject:
   m_ObjectHideFlags: 0
@@ -685,79 +686,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &683216880
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3087238000488631784, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
-      propertyPath: m_Name
-      value: Minijuego1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7585975526618264347, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1153.9584
-      objectReference: {fileID: 0}
-    - target: {fileID: 7585975526618264347, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 605.2058
-      objectReference: {fileID: 0}
-    - target: {fileID: 7585975526618264347, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7585975526618264347, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7585975526618264347, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7585975526618264347, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7585975526618264347, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7585975526618264347, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7585975526618264347, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7585975526618264347, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8381170297107980073, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 466.2214
-      objectReference: {fileID: 0}
-    - target: {fileID: 8381170297107980073, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 980.72
-      objectReference: {fileID: 0}
-    - target: {fileID: 8381170297107980073, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 657.8007
-      objectReference: {fileID: 0}
-    - target: {fileID: 8381170297107980073, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 27.639
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
 --- !u!1 &703183169
 GameObject:
   m_ObjectHideFlags: 0
@@ -1546,6 +1474,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carretera (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2275652163042200775, guid: bb1e31358904a5743b584c38d91bc20e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1905,9 +1837,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::minijuegoManager
   minijuegos:
-  - {fileID: 3087238000488631784, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
-  - {fileID: 3087238000488631784, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
-  - {fileID: 3087238000488631784, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
+  - {fileID: 1374982610098257128, guid: f6c600b8f0e883447b0bde6fe670f9e2, type: 3}
+  - {fileID: 1374982610098257128, guid: f6c600b8f0e883447b0bde6fe670f9e2, type: 3}
+  - {fileID: 1374982610098257128, guid: f6c600b8f0e883447b0bde6fe670f9e2, type: 3}
   minijuegoPos: {fileID: 537227622}
   contador: 30
 --- !u!1001 &2999346639937598323
@@ -1962,6 +1894,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carretera
       objectReference: {fileID: 0}
+    - target: {fileID: 2275652163042200775, guid: bb1e31358904a5743b584c38d91bc20e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1978,6 +1914,14 @@ PrefabInstance:
     - target: {fileID: 2400486399959388351, guid: d159c4fe7bc51ca4388fd7f7908a530f, type: 3}
       propertyPath: m_Name
       value: Tesla
+      objectReference: {fileID: 0}
+    - target: {fileID: 3222412572598030211, guid: d159c4fe7bc51ca4388fd7f7908a530f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7111498776707523941, guid: b63fb154aa8426c41b597b0760bffcd3, type: 3}
+    - target: {fileID: 3222412572598030211, guid: d159c4fe7bc51ca4388fd7f7908a530f, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5273057351460540696, guid: d159c4fe7bc51ca4388fd7f7908a530f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2019,6 +1963,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8519807708183252191, guid: d159c4fe7bc51ca4388fd7f7908a530f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2039,4 +1987,3 @@ SceneRoots:
   - {fileID: 1143996472}
   - {fileID: 2108046794}
   - {fileID: 537227622}
-  - {fileID: 683216880}
