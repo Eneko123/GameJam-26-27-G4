@@ -655,71 +655,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &341488218
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 776475642320119210, guid: f6c600b8f0e883447b0bde6fe670f9e2, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 9.791157
-      objectReference: {fileID: 0}
-    - target: {fileID: 776475642320119210, guid: f6c600b8f0e883447b0bde6fe670f9e2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.7295
-      objectReference: {fileID: 0}
-    - target: {fileID: 3701218206228250499, guid: f6c600b8f0e883447b0bde6fe670f9e2, type: 3}
-      propertyPath: m_Name
-      value: Minijuego2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9164248507221194247, guid: f6c600b8f0e883447b0bde6fe670f9e2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 8.105337
-      objectReference: {fileID: 0}
-    - target: {fileID: 9164248507221194247, guid: f6c600b8f0e883447b0bde6fe670f9e2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.71695554
-      objectReference: {fileID: 0}
-    - target: {fileID: 9164248507221194247, guid: f6c600b8f0e883447b0bde6fe670f9e2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9164248507221194247, guid: f6c600b8f0e883447b0bde6fe670f9e2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9164248507221194247, guid: f6c600b8f0e883447b0bde6fe670f9e2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9164248507221194247, guid: f6c600b8f0e883447b0bde6fe670f9e2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9164248507221194247, guid: f6c600b8f0e883447b0bde6fe670f9e2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9164248507221194247, guid: f6c600b8f0e883447b0bde6fe670f9e2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9164248507221194247, guid: f6c600b8f0e883447b0bde6fe670f9e2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9164248507221194247, guid: f6c600b8f0e883447b0bde6fe670f9e2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f6c600b8f0e883447b0bde6fe670f9e2, type: 3}
 --- !u!1 &537227621
 GameObject:
   m_ObjectHideFlags: 0
@@ -745,7 +680,7 @@ Transform:
   m_GameObject: {fileID: 537227621}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.5, y: 2.98, z: 0}
+  m_LocalPosition: {x: 6, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1486,7 +1421,7 @@ MonoBehaviour:
   Image: {fileID: 1452412383}
   pantallaDefault: {fileID: -8160545311666657193, guid: c43e2228c6248194eb949897d5e0d8ad, type: 3}
   pantallaVacia: {fileID: -6463314467654989336, guid: 5d76ccc022d60c8478af7e9df2f6e65a, type: 3}
-  isPantallaVacia: 1
+  isPantallaVacia: 0
 --- !u!1 &1560902514
 GameObject:
   m_ObjectHideFlags: 0
@@ -1843,8 +1778,8 @@ MonoBehaviour:
   canvasPantalla: {fileID: 1452412385}
   minijuegos:
   - {fileID: 3087238000488631784, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
-  - {fileID: 3087238000488631784, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
-  - {fileID: 3087238000488631784, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
+  - {fileID: 3701218206228250499, guid: f6c600b8f0e883447b0bde6fe670f9e2, type: 3}
+  - {fileID: 5522708968777991507, guid: 13ae70caf5611be429c117b5dce2cd4c, type: 3}
   minijuegoPos: {fileID: 537227622}
   contador: 30
 --- !u!1001 &2999346639937598323
@@ -2015,4 +1950,3 @@ SceneRoots:
   - {fileID: 1143996472}
   - {fileID: 2108046794}
   - {fileID: 537227622}
-  - {fileID: 341488218}
