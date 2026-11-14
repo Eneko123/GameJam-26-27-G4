@@ -9,6 +9,7 @@ TagManager:
   - SueloCubo
   - SueloGrande
   - MetaCubo
+  - pared
   layers:
   - Default
   - TransparentFX

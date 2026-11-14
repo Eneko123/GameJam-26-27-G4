@@ -1381,7 +1381,7 @@ GameObject:
   - component: {fileID: 1370738649}
   - component: {fileID: 1370738648}
   m_Layer: 0
-  m_Name: Square
+  m_Name: LLave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
