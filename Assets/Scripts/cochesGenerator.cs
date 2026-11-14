@@ -10,11 +10,12 @@ public class cochesGenerator : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        carriles[0] = new Vector3(-6, 15, 0);
-        carriles[1] = new Vector3(-2, 15, 0);
-        carriles[2] = new Vector3(2, 15, 0);
-        carriles[3] = new Vector3(6, 15, 0);
-        
+        carriles[0] = new Vector3(-1.8f-4.8f, 10, 0);
+        carriles[1] = new Vector3(-1.8f-2.4f, 10, 0);
+        carriles[2] = new Vector3(-1.8f, 10, 0);
+        carriles[3] = new Vector3(0.6f, 10, 0);
+
+
         InvokeRepeating(nameof(GenerarCoche), 0f, tiempoGeneracion);
     }
 

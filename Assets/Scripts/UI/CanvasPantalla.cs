@@ -11,7 +11,16 @@ public class CanvasPantalla : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        if (isPantallaVacia)
+        {
+            // Cambiar la pantalla a pantallaDefault
+            Image.sprite = pantallaVacia;
+        }
+        else if (!isPantallaVacia)
+        {
+            // Cambiar la pantalla a pantallaVacia
+            Image.sprite = pantallaDefault;
+        }
     }
 
     // Update is called once per frame
@@ -22,7 +31,7 @@ public class CanvasPantalla : MonoBehaviour
             CambiarPantalla();
         }
     }
-    void CambiarPantalla()
+    public void CambiarPantalla()
     {
         if (isPantallaVacia)
         {

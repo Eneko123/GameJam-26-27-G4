@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class minijuegoManager : MonoBehaviour
 {
+    public CanvasPantalla canvasPantalla;
     public GameObject[] minijuegos = new GameObject[3];
     public Transform minijuegoPos;
     public float contador = 10f;
@@ -19,6 +20,7 @@ public class minijuegoManager : MonoBehaviour
     }
     public void CrearMinijuegos()
     {
+            canvasPantalla.CambiarPantalla();
         int randomMinijuego = Random.Range(0, 3);
         switch (randomMinijuego)
         {
