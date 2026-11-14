@@ -1,4 +1,5 @@
 
+
 using UnityEngine;
 
 public class LlaveAleatoria : MonoBehaviour
@@ -13,11 +14,11 @@ public class LlaveAleatoria : MonoBehaviour
 
         if (numeroAleatorio == 0)
         {
-            llave.position = puntoMontonA.position;
+            llave.position = new Vector3(puntoMontonA.position.x,puntoMontonA.position.y,0f);
         }
         else
         {
-            llave.position = puntoMontonB.position;
+            llave.position = new Vector3(puntoMontonB.position.x,puntoMontonB.position.y,0f);
         }
 
         Debug.Log("Llave colocada aleatoriamente");
