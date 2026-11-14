@@ -1340,6 +1340,7 @@ GameObject:
   - component: {fileID: 1452412382}
   - component: {fileID: 1452412384}
   - component: {fileID: 1452412383}
+  - component: {fileID: 1452412385}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -1386,7 +1387,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5453337359132705871, guid: 356f2518f22415d48ad9006fddf883f0, type: 3}
+  m_Sprite: {fileID: -8160545311666657193, guid: c43e2228c6248194eb949897d5e0d8ad, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1404,6 +1405,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452412381}
   m_CullTransparentMesh: 1
+--- !u!114 &1452412385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452412381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aeef32d4b809e741bef184649c146bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CanvasPantalla
+  Image: {fileID: 1452412383}
+  pantallaDefault: {fileID: -8160545311666657193, guid: c43e2228c6248194eb949897d5e0d8ad, type: 3}
+  pantallaVacia: {fileID: -6463314467654989336, guid: 34908c189469bf948a985437b7ec701a, type: 3}
+  isPantallaVacia: 0
 --- !u!1001 &1515229861
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -18,7 +18,7 @@ public class minijuegoManager : MonoBehaviour
         
     }
     public void CrearMinijuegos()
-    { 
+    {
         int randomMinijuego = Random.Range(0, 3);
         switch (randomMinijuego)
         {
