@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemy
   - EliminarCoches
+  - SueloCubo
+  - SueloGrande
   layers:
   - Default
   - TransparentFX
