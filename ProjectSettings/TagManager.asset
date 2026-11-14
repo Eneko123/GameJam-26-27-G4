@@ -8,6 +8,7 @@ TagManager:
   - EliminarCoches
   - SueloCubo
   - SueloGrande
+  - MetaCubo
   layers:
   - Default
   - TransparentFX

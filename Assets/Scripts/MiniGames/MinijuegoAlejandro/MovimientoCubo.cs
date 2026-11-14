@@ -128,4 +128,12 @@ public class MovimientoCubo : MonoBehaviour
             superficiesSuelo.Remove(collision.collider);
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("MetaCubo"))
+        {
+            Debug.Log("Minijuego completado!");
+        }
+    }
 }
