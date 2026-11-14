@@ -1832,9 +1832,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::minijuegoManager
   minijuegos:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 3087238000488631784, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
+  - {fileID: 3087238000488631784, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
+  - {fileID: 3087238000488631784, guid: ba4e5f3f7dd4a09469294e8ca6bcd026, type: 3}
+  minijuegoPos: {fileID: 537227622}
+  contador: 30
 --- !u!1001 &2999346639937598323
 PrefabInstance:
   m_ObjectHideFlags: 0

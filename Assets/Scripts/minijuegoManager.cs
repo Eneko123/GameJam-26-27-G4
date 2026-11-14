@@ -3,8 +3,8 @@ using UnityEngine;
 public class minijuegoManager : MonoBehaviour
 {
     public GameObject[] minijuegos = new GameObject[3];
-    Transform minijuegoPos;
-    float contador = 10f;
+    public Transform minijuegoPos;
+    public float contador = 10f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
