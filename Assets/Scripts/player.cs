@@ -17,7 +17,7 @@ public class player : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            Debug.Log("Game Over");
+            gameManager.instance.Crash();
             Destroy(collision.gameObject);
         }
     }

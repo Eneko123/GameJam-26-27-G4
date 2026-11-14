@@ -1,12 +1,16 @@
 using UnityEngine;
+using System;
 
 public class gameManager : MonoBehaviour
 {
     public static gameManager instance;
 
+    public event Action OnCrashed;
+
     public float velocidad;
 
     public bool gamePaused = true;
+    public bool crshed = false;
 
     private void Awake()
     {
@@ -22,5 +26,12 @@ public class gameManager : MonoBehaviour
     void Update()
     {
 
+    }
+
+    public void Crash()
+    {
+        if (crshed) return;     
+        crshed = true;
+        OnCrashed?.Invoke();
     }
 }

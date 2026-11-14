@@ -1,9 +1,10 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-enum State {Playing, InMenu}
+enum State {Playing, InMenu, Lose}
 
 public class GameplayUI : MonoBehaviour
 {
@@ -18,6 +19,9 @@ public class GameplayUI : MonoBehaviour
     void Start()
     {
         manager = gameManager.instance;
+        manager.OnCrashed += GameOver;
+
+        manager = gameManager.instance;
 
         actualState = State.InMenu;
         Time.timeScale = 0f;
@@ -28,9 +32,9 @@ public class GameplayUI : MonoBehaviour
         exitButton.onClick.AddListener(Exit);
     }
 
-    void Update()
+    private void OnDestroy()
     {
-        
+        if (manager != null) manager.OnCrashed -= GameOver;
     }
 
     private void PCButtons()
@@ -44,6 +48,8 @@ public class GameplayUI : MonoBehaviour
 
     private void OnPause(InputValue value)
     {
+        if (actualState == State.Lose) return;
+
         Time.timeScale = 0.0f;
         informationText.text = "Juego pausado";
         manager.gamePaused = true;
@@ -58,5 +64,23 @@ public class GameplayUI : MonoBehaviour
 #else
         Application.Quit();
 #endif
+    }
+
+    private void GameOver()
+    {
+        Time.timeScale = 0;
+        informationText.text = "Ostia terrible...";
+        manager.gamePaused = true;
+        panel.SetActive(true);
+        actualState = State.Lose;
+        playButton.GetComponentInChildren<TextMeshProUGUI>().text = "Volver a jugar";
+        playButton.onClick.RemoveAllListeners();
+        playButton.onClick.AddListener(RestartGame);
+    }
+
+    private void RestartGame()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
