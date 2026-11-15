@@ -57,6 +57,7 @@ public class gameManager : MonoBehaviour
     public void Crash()
     {
         if (crshed) return;
+        Debug.Log("funciona crash");
         crshed = true;
         soundController.AccidenteSound();
         OnCrashed?.Invoke();
