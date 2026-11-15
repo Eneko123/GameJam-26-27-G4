@@ -12,6 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/EscenaMartin.unity
     guid: af310b866b7e05b448a7ca051e9e0b63
   - enabled: 1
+    path: Assets/Scenes/EscenaPruebas.unity
+    guid: e390a33734d65014f8b3dd766ef0cb37
+  - enabled: 1
+    path: Assets/Scenes/M.M.unity
+    guid: 993cad7dae1c25c46acdbbb8adfb60a7
+  - enabled: 1
+    path: Assets/Scenes/Marcos.unity
+    guid: a19a48c487014c048883d281c39ce8ca
+  - enabled: 1
     path: Assets/Scenes/Menu Creditos.unity
     guid: a36efdf600f49c143b0636428f07e59e
   - enabled: 1
