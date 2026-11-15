@@ -1,4 +1,5 @@
 
+
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -16,11 +17,18 @@ public class RepararMotor : MonoBehaviour
     private Color colorInicial;
     private InputAction accionReparar;
 
+    private int posicionAnterior = -1;
+
     private void Awake()
     {
         colorInicial = motor.color;
 
         accionReparar = new InputAction("Reparar",InputActionType.Button,"<Keyboard>/space");
+    }
+
+    private void Start()
+    {
+        CambiarPosicionVerde();
     }
 
     private void OnEnable()
@@ -38,6 +46,36 @@ public class RepararMotor : MonoBehaviour
     private void OnDestroy()
     {
         accionReparar.Dispose();
+    }
+
+    private void CambiarPosicionVerde()
+    {
+        int posicionAleatoria = Random.Range(0, 3);
+
+        // Evitamos repetir la posicion anterior
+        while (posicionAleatoria == posicionAnterior)
+        {
+            posicionAleatoria = Random.Range(0, 3);
+        }
+
+        posicionAnterior = posicionAleatoria;
+
+        float nuevaY = 0;
+
+        if (posicionAleatoria == 0)
+        {
+            nuevaY = -0.30f;
+        }
+        else if (posicionAleatoria == 1)
+        {
+            nuevaY = 0;
+        }
+        else
+        {
+            nuevaY = 0.30f;
+        }
+
+        zonaVerde.localPosition = new Vector3(0,nuevaY,0);
     }
 
     private void IntentarReparar(InputAction.CallbackContext context)
@@ -64,6 +102,10 @@ public class RepararMotor : MonoBehaviour
 
                 lineaMovil.GetComponent<MovimientoLineaMotor>().enabled = false;
             }
+            else
+            {
+                CambiarPosicionVerde();
+            }
         }
         else
         {
@@ -71,3 +113,4 @@ public class RepararMotor : MonoBehaviour
         }
     }
 }
+
