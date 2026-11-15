@@ -6,6 +6,7 @@ public class gameManager : MonoBehaviour
     [Header("Sonidos")]
     public AudioSource audioSource;
     public AudioClip sonidoCrash;
+    public SoundController soundController;
     public static gameManager instance;
 
     public event Action OnCrashed;
@@ -51,11 +52,7 @@ public class gameManager : MonoBehaviour
     {
         if (crshed) return;
         crshed = true;
-        if (audioSource != null && sonidoCrash != null)
-        {
-            Debug.Log("PEIO");
-            audioSource.PlayOneShot(sonidoCrash);
-        }
+        soundController.AccidenteSound();
         OnCrashed?.Invoke();
 
     }

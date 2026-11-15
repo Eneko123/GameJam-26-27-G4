@@ -10,6 +10,6 @@ public class MovimientoLineaMotor : MonoBehaviour
     {
         float nuevaY = Mathf.PingPong(Time.time * velocidad,limite * 2) - limite;
 
-        transform.localPosition = new Vector3(0,nuevaY,0);
+        transform.localPosition = new Vector3(0, nuevaY,0);
     }
 }
