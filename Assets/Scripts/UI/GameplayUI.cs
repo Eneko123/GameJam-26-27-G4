@@ -64,11 +64,7 @@ public class GameplayUI : MonoBehaviour
 
     private void Exit()
     {
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#else
-        Application.Quit();
-#endif
+        SceneManager.LoadScene("Menu Principal");
     }
 
     private void GameOver()

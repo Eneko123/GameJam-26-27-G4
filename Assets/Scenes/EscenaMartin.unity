@@ -2445,9 +2445,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Salir
-
-'
+  m_text: Volver atras
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 81be60abcd615d64fb69c549899d22d8, type: 2}
   m_sharedMaterial: {fileID: -2126996182212820140, guid: 81be60abcd615d64fb69c549899d22d8, type: 2}
