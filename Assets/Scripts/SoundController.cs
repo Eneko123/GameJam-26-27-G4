@@ -37,6 +37,7 @@ public class SoundController : MonoBehaviour
     }
     public void GlitchSound()
     {
+        Debug.Log("Se está ejecutando el sonido Glitch");
         fuente.PlayOneShot(Glitch);
     }
     public void AccidenteSound()
