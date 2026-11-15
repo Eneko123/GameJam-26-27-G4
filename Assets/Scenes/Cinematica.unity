@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SOUA AHFOAF FOSFO
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 80f142a1a4a11ab4db4d6004030a7dfb, type: 2}
   m_sharedMaterial: {fileID: 915967767335052056, guid: 80f142a1a4a11ab4db4d6004030a7dfb, type: 2}
