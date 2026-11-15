@@ -3,6 +3,9 @@ using System;
 
 public class gameManager : MonoBehaviour
 {
+    [Header("Sonidos")]
+    public AudioSource audioSource;
+    public AudioClip sonidoCrash;
     public static gameManager instance;
 
     public event Action OnCrashed;
@@ -48,6 +51,11 @@ public class gameManager : MonoBehaviour
     {
         if (crshed) return;
         crshed = true;
+        if (audioSource != null && sonidoCrash != null)
+        {
+            audioSource.PlayOneShot(sonidoCrash);
+        }
         OnCrashed?.Invoke();
+
     }
 }
