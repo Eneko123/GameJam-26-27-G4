@@ -339,6 +339,7 @@ GameObject:
   - component: {fileID: 741961608}
   - component: {fileID: 741961610}
   - component: {fileID: 741961609}
+  - component: {fileID: 741961611}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -385,10 +386,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Programacion:\nEneko\nMartin\nAlejandro\nJon\nMarcos\n\n\n\n\n\nEscena
-    principal:\nMartin\n\n\n\n\n\nMinijuego 1:\nEneko\n\n\n\n\n\nMinijuego 2:\nAlejandro\n\n\n\n\n\nMinijuego
-    3\nJon\n\n\n\n\n\nMinijuego 4\nMarcos\n\n\n\n\n\nCinem\xE1tica:\nMartin\n\n\n\n\n\nAmor:\nMarcos\n\n\n\nVer
-    pel\xEDculas con su prima:\nJon Towers"
+  m_text: "Programacion:\nEneko Iglesias Galdeano\nMartin Leoz Iturri\nAlejandro
+    Etayo\nJon Torres Loiti\nMarcos Delgado Perez\n\n\n\n\n\nEscena principal:\nMartin
+    Leoz Iturri\n\n\n\n\n\nMinijuego 1:\nEneko Iglesias Galdeano\n\n\n\n\n\nMinijuego
+    2:\nAlejandro Etayo\n\n\n\n\n\nMinijuego 3\nJon Torres Loiti\n\n\n\n\n\nMinijuego
+    4 y 5\nMarcos Delgado Perez\n\n\n\n\n\nCinem\xE1tica:\nMartin Leoz Iturri\n\n\n\n\nCr\xE9ditos:\nMartin
+    Leoz Iturri\n\n\n\n\n\n\n\n\n\n\nAmor:\nMarcos Delgado Perez\n\n\n\n\n\n\n\n\nVer
+    pel\xEDculas con su prima:\nJon Torres Loiti"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -415,13 +419,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 62.97
+  m_fontSizeBase: 62.97
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -468,6 +472,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 741961607}
   m_CullTransparentMesh: 1
+--- !u!114 &741961611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741961607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd51a24bb68603743a2c319a596bcd9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Creditos
+  velocidad: 0.7
 --- !u!1 &746337884
 GameObject:
   m_ObjectHideFlags: 0
