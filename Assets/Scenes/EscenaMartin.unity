@@ -2562,6 +2562,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carretera
       objectReference: {fileID: 0}
+    - target: {fileID: 2637004215937420471, guid: bb1e31358904a5743b584c38d91bc20e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6005,7 +6009,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6414817607488049417, guid: d159c4fe7bc51ca4388fd7f7908a530f, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8519807708183252191, guid: d159c4fe7bc51ca4388fd7f7908a530f, type: 3}
       propertyPath: m_Enabled

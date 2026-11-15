@@ -53,6 +53,7 @@ public class gameManager : MonoBehaviour
         crshed = true;
         if (audioSource != null && sonidoCrash != null)
         {
+            Debug.Log("PEIO");
             audioSource.PlayOneShot(sonidoCrash);
         }
         OnCrashed?.Invoke();
