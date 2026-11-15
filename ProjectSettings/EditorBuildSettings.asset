@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Cinematica.unity
+    guid: 50b655a9988a36a49a6cf6e81c6d7473
+  - enabled: 1
+    path: Assets/Scenes/EscenaMartin.unity
+    guid: af310b866b7e05b448a7ca051e9e0b63
+  - enabled: 1
+    path: Assets/Scenes/Menu Creditos.unity
+    guid: a36efdf600f49c143b0636428f07e59e
+  - enabled: 1
+    path: Assets/Scenes/Menu Principal.unity
+    guid: 0a86077e9198cfa41adb40a3c71e54ca
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

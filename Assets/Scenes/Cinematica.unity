@@ -457,15 +457,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EfectoMaquinaDeEscribir
   textoUI: {fileID: 260162168}
-  strings:
+  mensajes:
   - 
   - 
   - 
   - 
-  mensajeCompleto1: Parecia un dia mas utilizando tu Pesla...
-  mensajeCompleto2: pero te das cuenta que...
-  mensajeCompleto3: esto no deberia funcionar asi...
-  mensajeCompleto4: Tu Pesla de ultima generacion ha sido hackeado...
   velocidad: 0.05
 --- !u!4 &1559331299
 Transform:
@@ -476,7 +472,7 @@ Transform:
   m_GameObject: {fileID: 1559331297}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 933.8271, y: 537.4577, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
