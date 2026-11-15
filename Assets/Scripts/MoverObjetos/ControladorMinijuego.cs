@@ -74,10 +74,7 @@ public class ControladorMinijuego : MonoBehaviour, IMinijuego
         // Solo se puede interactuar en la zona derecha
         Vector3 vista = camara.WorldToViewportPoint(raton);
 
-        if (vista.x < limiteIzquierdo ||
-            vista.x > limiteDerecho ||
-            vista.y < limiteInferior ||
-            vista.y > limiteSuperior)
+        if (vista.x < limiteIzquierdo ||vista.x > limiteDerecho ||vista.y < limiteInferior ||vista.y > limiteSuperior)
         {
             return;
         }
@@ -130,8 +127,7 @@ public class ControladorMinijuego : MonoBehaviour, IMinijuego
 
     void ArrastrarObjeto()
     {
-        if (objetoSeleccionado == null || limiteMinijuego == null)
-            return;
+        if (objetoSeleccionado == null || limiteMinijuego == null) return;
 
         // Obtenemos la posición del ratón
         Vector3 raton = PosicionRaton();
