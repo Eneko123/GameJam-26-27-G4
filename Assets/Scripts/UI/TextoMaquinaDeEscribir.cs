@@ -17,10 +17,10 @@ public class EfectoMaquinaDeEscribir : MonoBehaviour
 
     void Start()
     {
-        mensajes[0] = "Parecia un dia mas utilizando tu Pesla...";
+        mensajes[0] = "Parece un dia mas utilizando tu Pesla...";
         mensajes[1] = "pero te das cuenta de que...";
         mensajes[2] = "esto no deberia funcionar asi";
-        mensajes[3] = "TU PESLA DE ULTIMA GENERACION HA SIDO";
+        mensajes[3] = "TU KESLA DE ULTIMA GENERACION HA SIDO";
         mensajes[4] = "¡HACKEADO!";
 
         StartCoroutine(MostrarTexto());

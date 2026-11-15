@@ -363,8 +363,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -698.9158}
-  m_SizeDelta: {x: 800, y: 1897.8315}
+  m_AnchoredPosition: {x: 0, y: -1517.3}
+  m_SizeDelta: {x: 1353.06, y: 1897.8315}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &741961609
 MonoBehaviour:
@@ -443,7 +443,7 @@ MonoBehaviour:
 
 
 
-    Minijuego de la Llave + Minijuego de Motor:
+    Minijuego de la Llave y minijuego de Motor:
 
     Marcos
     Delgado Perez
@@ -460,10 +460,23 @@ MonoBehaviour:
 
 
 
-    Montaje de
-    Minijuegos y Carretera:
+
+
+    Montaje
+    de Minijuegos y Carretera:
 
     Eneko Iglesias Galdeano
+
+    Martin Leoz Iturri
+
+
+
+
+
+    Menus:
+
+    Alejandro
+    Etayo Diez
 
 
 
@@ -471,8 +484,7 @@ MonoBehaviour:
 
     Creditos:
 
-    Martin
-    Leoz Iturri
+    Martin Leoz Iturri
 
 
 
@@ -486,7 +498,8 @@ MonoBehaviour:
 
     Amor:
 
-    Marcos Delgado Perez
+    Marcos
+    Delgado Perez
 
 
 
@@ -496,8 +509,7 @@ MonoBehaviour:
 
 
 
-    Ver peliculas
-    con su prima:
+    Ver peliculas con su prima:
 
     Jon Torres Loiti
 
@@ -506,8 +518,8 @@ MonoBehaviour:
 
 
 
-    Vive en un pueblo y se le va la
-    luz:
+    Vive
+    en un pueblo y se le va la luz:
 
     Alejandro Etayo Diez
 
@@ -517,25 +529,14 @@ MonoBehaviour:
 
     Imprevistos:
 
-    Marcos Delgado Perez
+    Marcos
+    Delgado Perez
 
 
 
 
 
-    Jefe
-    de seguridad del GitHub:
-
-    Jon Torres Loiti
-
-
-
-
-
-    El duo Dinamico:
-
-    Alejandro
-    Etayo Diez
+    Jefe de seguridad del GitHub:
 
     Jon Torres Loiti
 
@@ -543,10 +544,22 @@ MonoBehaviour:
 
 
 
+    El
+    duo Dinamico:
+
+    Alejandro Etayo Diez
+
+    Jon Torres Loiti
 
 
 
-    Muchas Garcias Y Galicias por jugar
+
+
+
+
+
+    Muchas
+    Garcias Y Galicias por jugar
 
 '
   m_isRightToLeft: 0
