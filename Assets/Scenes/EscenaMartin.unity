@@ -429,6 +429,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1acccf086ebe9894f9329246dcd0a7ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::gameManager
+  audioSource: {fileID: 0}
+  sonidoCrash: {fileID: 8300000, guid: b23ba51ffcaf23c4ca02475172df1ba5, type: 3}
   velocidad: 2
   velocidadInicial: 120
   velocidadMaxima: 200
