@@ -9,6 +9,7 @@ public class GlitchController : MonoBehaviour
     [SerializeField] private bool autoGlitch = false;
     [SerializeField] private Vector2 intervalRange = new Vector2(2f, 5f);   // segundos entre glitches
     [SerializeField] private float autoDuration = 0.3f;
+    public SoundController soundController;
 
     private static readonly int IntensityId = Shader.PropertyToID("_Intensity");
 
@@ -32,6 +33,7 @@ public class GlitchController : MonoBehaviour
     {
         StopAllCoroutines();
         StartCoroutine(GlitchRoutine(duration, intensity));
+        soundController.GlitchSound();
     }
 
     // Para mantener el glitch encendido o apagado a mano (0 = nada, 1 = máximo)

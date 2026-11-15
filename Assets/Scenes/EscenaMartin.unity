@@ -1753,6 +1753,7 @@ MonoBehaviour:
   autoGlitch: 0
   intervalRange: {x: 2, y: 5}
   autoDuration: 0.3
+  soundController: {fileID: 100781887}
 --- !u!4 &814790950
 Transform:
   m_ObjectHideFlags: 0
@@ -2634,6 +2635,7 @@ MonoBehaviour:
   autoGlitch: 0
   intervalRange: {x: 2, y: 5}
   autoDuration: 0.3
+  soundController: {fileID: 0}
 --- !u!1 &1460765959
 GameObject:
   m_ObjectHideFlags: 0
