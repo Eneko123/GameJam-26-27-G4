@@ -20,7 +20,6 @@ public class player : MonoBehaviour
         {
             Debug.Log("funciona tambien");
             gameManager.instance.Crash();
-            Destroy(collision.gameObject);
 
         }
     }
