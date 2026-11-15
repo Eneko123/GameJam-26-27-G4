@@ -20,8 +20,6 @@ public class gameManager : MonoBehaviour
     public bool crshed = false;
     public bool ganado = false;
 
-    public EfectoFallo pantallaRoja;
-
     private void Awake()
     {
         if (instance == null) instance = this;
@@ -61,7 +59,5 @@ public class gameManager : MonoBehaviour
         crshed = true;
         soundController.AccidenteSound();
         OnCrashed?.Invoke();
-        pantallaRoja.MostrarFallo();
-        Debug.Log("ROJILLO");
     }
 }

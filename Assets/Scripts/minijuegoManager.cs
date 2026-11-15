@@ -10,7 +10,6 @@ public class minijuegoManager : MonoBehaviour
     public Image barraCooldown;                     // Image con Image Type = Filled
     public GameObject[] ocultarEnMinijuego;         // p. ej. el texto de velocidad
     public MinijuegoResultado[] minijuegos;         // objetos de la escena (raíz de cada minijuego)
-    public EfectoFallo pantallaRoja;
 
     [Header("Tiempos")]
     public float intervalo = 4f;                    // espera entre un minijuego y el siguiente
@@ -90,9 +89,6 @@ public class minijuegoManager : MonoBehaviour
         gm.CambiarVelocidad(victoria ? -bajadaVelocidad : subidaVelocidad);
 
         float duracion = victoria ? glitchVictoria : glitchDerrota;
-
-        pantallaRoja.MostrarFallo();
-        Debug.Log("ROJILLO");
         if (glitch != null) glitch.PlayGlitch(duracion);
         yield return new WaitForSeconds(duracion);
 
