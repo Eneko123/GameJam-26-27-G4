@@ -20,6 +20,8 @@ public class gameManager : MonoBehaviour
     public bool crshed = false;
     public bool ganado = false;
 
+    public EfectoFallo pantallaRoja;
+
     private void Awake()
     {
         if (instance == null) instance = this;
@@ -33,7 +35,11 @@ public class gameManager : MonoBehaviour
     // delta negativo = frenar (minijuego ganado), positivo = acelerar (minijuego perdido)
     public void CambiarVelocidad(float delta)
     {
-        if (crshed || ganado) return;
+        if (crshed || ganado)
+        { 
+        return;
+        }
+
 
         velocidad = Mathf.Clamp(velocidad + delta, 0f, velocidadMaxima);
 
@@ -54,6 +60,7 @@ public class gameManager : MonoBehaviour
         crshed = true;
         soundController.AccidenteSound();
         OnCrashed?.Invoke();
-
+        pantallaRoja.MostrarFallo();
+        Debug.Log("ROJILLO");
     }
 }
