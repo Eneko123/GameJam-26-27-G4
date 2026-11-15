@@ -41,6 +41,7 @@ public class SoundController : MonoBehaviour
     }
     public void AccidenteSound()
     {
-        fuente.PlayOneShot(Accidente);
+        fuente.clip = Accidente;
+        fuente.Play();
     }
 }

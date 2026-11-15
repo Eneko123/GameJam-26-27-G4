@@ -15,10 +15,13 @@ public class player : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log("funciona");
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            Debug.Log("funciona tambien");
             gameManager.instance.Crash();
             Destroy(collision.gameObject);
+
         }
     }
 }
