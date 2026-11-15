@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
-public class CirclesMG : MonoBehaviour
+public class CirclesMG : MonoBehaviour, IMinijuego
 {
     [Header("Referencias")]
     [SerializeField] private TextMeshProUGUI objetiveText;
@@ -43,11 +43,23 @@ public class CirclesMG : MonoBehaviour
     private float elapsed;
     private float spawnTimer;
 
-    void Start()
+    void Awake()
     {
         cam = Camera.main;
         timerStartScale = squareTimer.transform.localScale;
+    }
+
+    // Lo llama MinijuegoResultado.Activar() cada vez que se muestra el minijuego
+    public void Iniciar()
+    {
         StartGame();
+    }
+
+    void OnDisable()
+    {
+        // Las bolas se instancian fuera de este objeto, hay que limpiarlas al apagarlo
+        ClearCircles();
+        playing = false;
     }
 
     public void StartGame()
@@ -107,7 +119,7 @@ public class CirclesMG : MonoBehaviour
         Rect area = GetPlayAreaInWorld();
         float x = Random.Range(area.xMin + radius, area.xMax - radius);
         float y = Random.Range(area.yMin + radius, area.yMax - radius);
-        go.transform.position = new Vector3(x, y, template.transform.position.z);
+        go.transform.position = new Vector3(x, y, -5);
 
         activeCircles.Add(new ActiveCircle
         {
@@ -190,6 +202,7 @@ public class CirclesMG : MonoBehaviour
 
         objetiveText.text = win ? "¡Ganaste!" : "¡Perdiste!";
         onGameFinished?.Invoke(win);
+        GetComponentInParent<MinijuegoResultado>()?.Reportar(win);
     }
 
     private void UpdateText()

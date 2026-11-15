@@ -2,12 +2,12 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class MovimientoCubo : MonoBehaviour
+public class MovimientoCubo : MonoBehaviour, IMinijuego
 {
     [Header("----------------VARIABLES DEL CUBO----------------")]
     [SerializeField] private float velocidad = 5f; // Velocidad de movimiento del cubo
     [SerializeField] private float fuerzaSalto = 5f; // Fuerza del salto del cubo
-    [SerializeField] private float FuerzaSaltoMala = 1f; // Fuerza en el cubo cuando cae en la superficie mala
+/*    [SerializeField] private float FuerzaSaltoMala = 1f;*/ // Fuerza en el cubo cuando cae en la superficie mala
     private Rigidbody2D rb2d;
 
     [Header("----------------------Salto en suelo grande----------------------")]
@@ -18,9 +18,17 @@ public class MovimientoCubo : MonoBehaviour
     private bool estaEnSuelo => superficiesSuelo.Count > 0; // Variable para verificar si el cubo está en el suelo
 
     //--------------------------------------------------------
-    void Start()
+    void Awake()
     {
         rb2d = GetComponent<Rigidbody2D>();
+    }
+
+    public void Iniciar()
+    {
+        rb2d.linearVelocity = Vector2.zero;
+        superficiesSuelo.Clear();
+        cargandoSalto = false;
+        tiempoPulsado = 0f;
     }
     //--------------------------------------------------------
     private void Update()
@@ -134,6 +142,7 @@ public class MovimientoCubo : MonoBehaviour
         if (collision.CompareTag("MetaCubo"))
         {
             Debug.Log("Minijuego completado!");
+            GetComponentInParent<MinijuegoResultado>()?.Reportar(true);
         }
     }
 }

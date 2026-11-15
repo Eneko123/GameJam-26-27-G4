@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-enum State {Playing, InMenu, Lose}
+enum State { Playing, InMenu, Lose, Win }
 
 public class GameplayUI : MonoBehaviour
 {
@@ -20,8 +20,7 @@ public class GameplayUI : MonoBehaviour
     {
         manager = gameManager.instance;
         manager.OnCrashed += GameOver;
-
-        manager = gameManager.instance;
+        manager.OnVictoria += Victoria;
 
         actualState = State.InMenu;
         Time.timeScale = 0f;
@@ -34,7 +33,11 @@ public class GameplayUI : MonoBehaviour
 
     private void OnDestroy()
     {
-        if (manager != null) manager.OnCrashed -= GameOver;
+        if (manager != null)
+        {
+            manager.OnCrashed -= GameOver;
+            manager.OnVictoria -= Victoria;
+        }
     }
 
     private void PCButtons()
@@ -48,7 +51,7 @@ public class GameplayUI : MonoBehaviour
 
     private void OnPause(InputValue value)
     {
-        if (actualState == State.Lose) return;
+        if (actualState == State.Lose || actualState == State.Win) return;
 
         Time.timeScale = 0.0f;
         informationText.text = "Juego pausado";
@@ -68,7 +71,6 @@ public class GameplayUI : MonoBehaviour
 
     private void GameOver()
     {
-        /*
         Time.timeScale = 0;
         informationText.text = "Ostia terrible...";
         manager.gamePaused = true;
@@ -77,7 +79,18 @@ public class GameplayUI : MonoBehaviour
         playButton.GetComponentInChildren<TextMeshProUGUI>().text = "Volver a jugar";
         playButton.onClick.RemoveAllListeners();
         playButton.onClick.AddListener(RestartGame);
-        */
+    }
+
+    private void Victoria()
+    {
+        Time.timeScale = 0f;
+        informationText.text = "¡Has recuperado el control de tu Quesla!";
+        manager.gamePaused = true;
+        panel.SetActive(true);
+        actualState = State.Win;
+        playButton.GetComponentInChildren<TextMeshProUGUI>().text = "Volver a jugar";
+        playButton.onClick.RemoveAllListeners();
+        playButton.onClick.AddListener(RestartGame);
     }
 
     private void RestartGame()

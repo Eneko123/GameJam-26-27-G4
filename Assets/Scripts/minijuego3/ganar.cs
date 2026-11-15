@@ -9,6 +9,6 @@ public class ganar : MonoBehaviour
     }
     public void victoria()
     {
-
+        GetComponentInParent<MinijuegoResultado>()?.Reportar(true);
     }
 }

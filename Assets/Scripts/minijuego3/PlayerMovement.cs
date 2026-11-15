@@ -1,13 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Player_move : MonoBehaviour
+public class Player_move : MonoBehaviour, IMinijuego
 {
     public float moveSpeed = 5f;
 
     private Vector3 targetPos;
     private bool moving = false;
+
+    // Se llama cada vez que el minijuego se activa (después de restaurar la posición inicial)
+    public void Iniciar()
+    {
+        moving = false;
+        targetPos = transform.position;
+    }
+
+    // Por si el minijuego se apaga a mitad de movimiento
+    private void OnDisable()
+    {
+        moving = false;
+    }
 
     private void Update()
     {

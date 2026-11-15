@@ -2,14 +2,15 @@ using UnityEngine;
 
 public class player_death : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Destroy(other.gameObject);
+        // Se desactiva en vez de destruir: el objeto está en la escena y hay que poder reutilizarlo
+        other.gameObject.SetActive(false);
         perder();
     }
     private void perder()
     {
         Debug.Log("derrota");
+        GetComponentInParent<MinijuegoResultado>()?.Reportar(false);
     }
 }

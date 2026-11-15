@@ -1,7 +1,8 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
-public class ControladorMinijuego : MonoBehaviour
+public class ControladorMinijuego : MonoBehaviour, IMinijuego
 {
     [Header("Referencias")]
     [SerializeField] private Camera camara;
@@ -18,10 +19,16 @@ public class ControladorMinijuego : MonoBehaviour
     private Vector3 desplazamiento;
     private bool completado;
 
-    void Start()
+    void Awake()
     {
         if (camara == null)
             camara = Camera.main;
+    }
+
+    public void Iniciar()
+    {
+        completado = false;
+        objetoSeleccionado = null;
     }
 
     void Update()
@@ -162,5 +169,6 @@ public class ControladorMinijuego : MonoBehaviour
     {
         completado = true;
         Debug.Log("¡Has encontrado la llave!");
+        GetComponentInParent<MinijuegoResultado>()?.Reportar(true);
     }
 }

@@ -28,10 +28,14 @@ public class cochesGenerator : MonoBehaviour
         }
     }
     void GenerarCoche()
-    { 
+    {
         int carril = Random.Range(0, 4);
         int cocheIndex = Random.Range(0, coches.Length);
-        GameObject cocheNuevo = Instantiate(coches[cocheIndex], carriles[carril], Quaternion.identity);
+
+        Vector3 posicion = carriles[carril];
+        posicion.z = -1f;
+
+        GameObject cocheNuevo = Instantiate(coches[cocheIndex], posicion, Quaternion.identity);
         cocheNuevo.GetComponent<cocheEnemy>().velocidad = gameManager.velocidad;
     }
 }
