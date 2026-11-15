@@ -1,13 +1,19 @@
+
 using System.Collections;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+
 public class EfectoMaquinaDeEscribir : MonoBehaviour
 {
     public TextMeshProUGUI textoUI;
     public string[] mensajes = new string[5];
 
     public float velocidad = 0.05f;
+
+    
+    public AudioSource audioSource;
+    public AudioClip sonidoTecla;
 
     void Start()
     {
@@ -27,12 +33,22 @@ public class EfectoMaquinaDeEscribir : MonoBehaviour
             foreach (char letra in mensajes[i].ToCharArray())
             {
                 textoUI.text += letra;
+
+                
+                if (!char.IsWhiteSpace(letra) && audioSource != null && sonidoTecla != null)
+                {
+                    audioSource.Stop();
+                    audioSource.clip = sonidoTecla;
+                    audioSource.Play();
+                }
+
                 yield return new WaitForSeconds(velocidad);
             }
-            yield return new WaitForSeconds(3f); // Espera 1 segundo antes de mostrar el siguiente mensaje
-            textoUI.text = "";
 
+            yield return new WaitForSeconds(3f);
+            textoUI.text = "";
         }
+
         SceneManager.LoadScene("EscenaMartin");
     }
 }
