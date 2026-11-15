@@ -12,6 +12,7 @@ public class GameplayUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI informationText;
     [SerializeField] private Button playButton;
     [SerializeField] private Button exitButton;
+    public GameObject cristalRoto;
 
     private State actualState;
     private gameManager manager;
@@ -29,6 +30,7 @@ public class GameplayUI : MonoBehaviour
 
         playButton.onClick.AddListener(PCButtons);
         exitButton.onClick.AddListener(Exit);
+        cristalRoto.SetActive(false);
     }
 
     private void OnDestroy()
@@ -79,6 +81,7 @@ public class GameplayUI : MonoBehaviour
         playButton.GetComponentInChildren<TextMeshProUGUI>().text = "Volver a jugar";
         playButton.onClick.RemoveAllListeners();
         playButton.onClick.AddListener(RestartGame);
+        cristalRoto.SetActive(true);
     }
 
     private void Victoria()
